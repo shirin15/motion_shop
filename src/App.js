@@ -1,7 +1,7 @@
 import './App.css';
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import {Route} from "react-router-dom";
+import {Route, } from "react-router-dom";
 import Women from "./Pages/Women";
 import Men from "./Pages/Men";
 import Children from "./Pages/Children";

@@ -2,7 +2,6 @@
    background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);
  }
 .input{
-
     width: 300px;
     background: #CCCCCC;
     opacity: 0.4;
@@ -14,15 +13,78 @@
     width: 500px;
 }
 .catalog{
-    margin: 60px  ;
+display: flex;
+    align-items: center;
+    margin: 60px;
+}
+.women {
     border: 1px solid #FF005C;
+    width: 149px;
+    height: 40px;
+    margin: 10px;
     box-sizing: border-box;
     border-radius: 5px;
-    font-family: 'Inter', SansSerif, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #434343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
 }
+.women:hover{
+    color: white;
+    background: #FF005C;
+    box-shadow: #FF005C 2px 2px 2px 2px;
+}
+ .men{
+     border: 1px solid #FF005C;
+     width: 149px;
+     height: 40px;
+     margin: 10px;
+     box-sizing: border-box;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     transition: 0.8s;
+}
+ .men:hover{
+     color: white;
+     background: #FF005C;
+     box-shadow: #FF005C 2px 2px 2px 2px;
+ }
+ .shoes{
+      border: 1px solid #FF005C;
+      width: 149px;
+      height: 40px;
+      margin: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     cursor: pointer;
+     transition: 0.8s;
+}
+ .shoes:hover{
+     color: white;
+     background: #FF005C;
+     box-shadow: #FF005C 2px 2px 2px 2px;
+ }
+ .children{
+       border: 1px solid #FF005C;
+       width: 149px;
+       height: 40px;
+       margin: 10px;
+       box-sizing: border-box;
+       border-radius: 5px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     cursor: pointer;
+     transition: 0.8s;
+}
+ .children:hover{
+     color: white;
+     background: #FF005C;
+     box-shadow: #FF005C 2px 2px 2px 2px;
+ }
