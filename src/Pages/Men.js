@@ -3,7 +3,7 @@ import React from 'react';
 const Men = () => {
     return (
         <div>
-            men
+            <h1>ofgcjneroifkdlcxm</h1>
         </div>
     );
 };

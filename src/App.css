@@ -13,3 +13,16 @@
 .div{
     width: 500px;
 }
+.catalog{
+    margin: 60px  ;
+    border: 1px solid #FF005C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Inter', SansSerif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #434343;
+}

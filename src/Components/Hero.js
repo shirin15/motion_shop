@@ -3,9 +3,7 @@ import {Link} from "react-router-dom";
 
 const Hero = () => {
     return (
-        <div
-            className=""
-            >
+        <div className="catalog">
             <Link to="/Women">Женщинам</Link>
             <Link to="/Men">Мужчинам</Link>
             <Link to="/Children">Детям</Link>
