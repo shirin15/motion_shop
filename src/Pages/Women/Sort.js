@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Shirt = () => {
+const Sort = () => {
     return (
         <div>
-            <h1>rolan</h1>
+            fdf
         </div>
     );
 };
 
-export default Shirt;
+export default Sort;

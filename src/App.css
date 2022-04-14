@@ -34,57 +34,32 @@ display: flex;
     background: #FF005C;
     box-shadow: #FF005C 2px 2px 2px 2px;
 }
- .men{
-     border: 1px solid #FF005C;
-     width: 149px;
-     height: 40px;
-     margin: 10px;
-     box-sizing: border-box;
-     border-radius: 5px;
+
+.root{
+   margin-left: 50px;
+
+}
+.rootes{
+    border: 1px solid #FF005C;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+ .rootes:hover{
+     color: white;
+     background: #FF005C;
+     box-shadow: #FF005C 2px 2px 2px 2px;
+ }
+ .sort{
      display: flex;
      align-items: center;
      justify-content: center;
 
-     transition: 0.8s;
-}
- .men:hover{
-     color: white;
-     background: #FF005C;
-     box-shadow: #FF005C 2px 2px 2px 2px;
- }
- .shoes{
-      border: 1px solid #FF005C;
-      width: 149px;
-      height: 40px;
-      margin: 10px;
-      box-sizing: border-box;
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-     cursor: pointer;
-     transition: 0.8s;
-}
- .shoes:hover{
-     color: white;
-     background: #FF005C;
-     box-shadow: #FF005C 2px 2px 2px 2px;
- }
- .children{
-       border: 1px solid #FF005C;
-       width: 149px;
-       height: 40px;
-       margin: 10px;
-       box-sizing: border-box;
-       border-radius: 5px;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-     cursor: pointer;
-     transition: 0.8s;
-}
- .children:hover{
-     color: white;
-     background: #FF005C;
-     box-shadow: #FF005C 2px 2px 2px 2px;
  }
